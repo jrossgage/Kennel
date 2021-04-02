@@ -1,0 +1,65 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle"
+    },
+    {
+      "id": 2,
+      "name": "Decker",
+      "breed": "German Shepherd"
+    },
+    {
+      "id": 3,
+      "name": "Esme",
+      "breed": "Pitbull"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct"
+    },
+    {
+      "name": "Fredrick",
+      "address": "100 Here Dr.",
+      "id": 2
+    },
+    {
+      "name": "Kyle",
+      "address": "102 Now Dr.",
+      "id": 3
+    }
+  ],
+  "employees": [
+    {
+      "name": "Scruffy",
+      "company": "Nashville Kennels North",
+      "id": 1
+    },
+    {
+      "name": "Bob",
+      "company": "Nashville Kennels North",
+      "id": 2
+    },
+    {
+      "name": "Tim",
+      "company": "Nashville Kennels North",
+      "id": 3
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
+}
