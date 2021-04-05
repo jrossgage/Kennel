@@ -1,11 +1,6 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Doodles",
-      "breed": "Poodle"
-    },
-    {
       "id": 2,
       "name": "Decker",
       "breed": "German Shepherd"
@@ -20,16 +15,16 @@
     {
       "id": 1,
       "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "phoneNumber": "700-5443"
     },
     {
       "name": "Fredrick",
-      "address": "100 Here Dr.",
+      "phoneNumber": "100-2000",
       "id": 2
     },
     {
       "name": "Kyle",
-      "address": "102 Now Dr.",
+      "phoneNumber": "800-8768",
       "id": 3
     }
   ],
