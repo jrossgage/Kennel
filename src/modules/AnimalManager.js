@@ -10,3 +10,9 @@ const remoteURL = "http://localhost:8088"
     return fetch(`${remoteURL}/animals`)
     .then(result => result.json())
 }
+
+export const deleteAnimal = (id) => {
+  return fetch(`${remoteURL}/animals/${id}`, {
+    method: "DELETE"
+  }).then(result => result.json())
+}
