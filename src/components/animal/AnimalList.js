@@ -13,7 +13,7 @@ export const AnimalList = () => {
     
     const handleDeleteAnimal = id => {
         deleteAnimal(id)
-        .then(() => getAllAnimals().then(setAnimals));
+        .then(() => getAnimals());
     };
     
     useEffect(() => {
