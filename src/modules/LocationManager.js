@@ -1,7 +1,7 @@
 const remoteURL = "http://localhost:8088"
 
 export const getLocationById = (id) => {
-    return fetch(`${remoteURL}/locations/${id}?_expand=customers&_expand=animals`)
+    return fetch(`${remoteURL}/locations/${id}`)
     .then(response => response.json())
 }
 

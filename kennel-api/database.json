@@ -4,17 +4,24 @@
       "id": 2,
       "name": "Decker",
       "breed": "German Shepherd",
-      "locationId":2,
-      "customerId":2,
-      "employeeId":2
+      "locationId": 2,
+      "customerId": 2,
+      "employeeId": 2
     },
     {
       "id": 3,
       "name": "Esme",
       "breed": "Pitbull",
-      "locationId":2,
-      "customerId":3,
-      "employeeId":3
+      "locationId": 2,
+      "customerId": 3,
+      "employeeId": 3
+    },
+    {
+      "name": "Fred",
+      "breed": "Mutt Dog",
+      "locationId": 2,
+      "customerId": 2,
+      "id": 4
     }
   ],
   "customers": [
