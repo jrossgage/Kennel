@@ -50,6 +50,7 @@ export const AnimalForm = () => {
 
     const handleClickSaveAnimal = (event) => {
         event.preventDefault()
+        setIsLoading(true)
 
         const locationId = animal.locationId
         const customerId = animal.customerId
@@ -105,7 +106,7 @@ export const AnimalForm = () => {
 					</select>
 				</div>
 			</fieldset>
-			<button className="btn btn-primary"
+			<button disabled={isLoading} className="btn btn-primary"
 				onClick={handleClickSaveAnimal}>
 				Save Animal
           </button>

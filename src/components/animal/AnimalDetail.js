@@ -32,7 +32,7 @@ export const AnimalDetail = () => {
     }, [animalId]);
 
     return (
-        <section className="animal">
+        <section className="card">
         <h3 className="animal__name">{animal.name}</h3>
         <div className="animal__breed">{animal.breed}</div>
         {/* What's up with the question mark???? See below.*/}
