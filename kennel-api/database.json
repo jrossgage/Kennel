@@ -22,6 +22,20 @@
       "locationId": 2,
       "customerId": 2,
       "id": 4
+    },
+    {
+      "name": "Timothy ",
+      "breed": "Bird Dog",
+      "locationId": 3,
+      "customerId": 3,
+      "id": 5
+    },
+    {
+      "name": "Charles",
+      "breed": "Scottish",
+      "locationId": 3,
+      "customerId": 2,
+      "id": 6
     }
   ],
   "customers": [
@@ -34,18 +48,28 @@
       "name": "Kyle",
       "phoneNumber": "800-8768",
       "id": 3
+    },
+    {
+      "name": "Hank",
+      "phoneNumber": "444-5685",
+      "id": 4
     }
   ],
   "employees": [
     {
       "name": "Bob",
-      "company": "Nashville Kennels North",
+      "locationId": 2,
       "id": 2
     },
     {
       "name": "Tim",
-      "company": "Nashville Kennels North",
+      "locationId": 2,
       "id": 3
+    },
+    {
+      "name": "Phteven",
+      "locationId": 2,
+      "id": 4
     }
   ],
   "locations": [
@@ -53,6 +77,11 @@
       "id": 2,
       "name": "Nashville South",
       "address": "209 Emory Drive"
+    },
+    {
+      "name": "Nashville Kennel North",
+      "address": "221 nashville North",
+      "id": 3
     }
   ]
 }
