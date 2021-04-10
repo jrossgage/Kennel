@@ -5,8 +5,7 @@
       "name": "Decker",
       "breed": "German Shepherd",
       "locationId": 2,
-      "customerId": 2,
-      "employeeId": 2
+      "customerId": 4
     },
     {
       "id": 3,
@@ -40,26 +39,41 @@
   ],
   "customers": [
     {
-      "name": "Fredrick",
-      "phoneNumber": "100-2000",
-      "id": 2
+      "id": 2,
+      "name": "Fred ",
+      "email": "f@f.com"
     },
     {
       "name": "Kyle",
-      "phoneNumber": "800-8768",
+      "email": "k@k.com",
       "id": 3
     },
     {
       "name": "Hank",
-      "phoneNumber": "444-5685",
+      "email": "h@h.com",
       "id": 4
+    },
+    {
+      "email": "j@j.com",
+      "name": "joel joel",
+      "id": 5
+    },
+    {
+      "name": "Sally",
+      "email": "s@s.com",
+      "id": 6
+    },
+    {
+      "name": "Jim",
+      "email": "jim@jim.com",
+      "id": 7
     }
   ],
   "employees": [
     {
-      "name": "Bob",
-      "locationId": 2,
-      "id": 2
+      "id": 2,
+      "name": "Bob 2",
+      "locationId": 2
     },
     {
       "name": "Tim",

@@ -1,8 +1,10 @@
 import React from "react"
 import "./Location.css";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
+
 
 export const LocationCard = ({ location, handleDeleteLocation }) => {
+    const history = useHistory()
     return (
         <div className="card">
             <div className="card-content">
@@ -15,6 +17,12 @@ export const LocationCard = ({ location, handleDeleteLocation }) => {
                     <button>Details</button>
                 </Link>
             </div>
+
+            <button type="button"
+                onClick={() => history.push(`/locations/${location.id}/edit`)}>
+                Edit
+        </button>
+
         </div>
     );
 }

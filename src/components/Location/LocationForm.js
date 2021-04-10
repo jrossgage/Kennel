@@ -51,20 +51,9 @@ export const LocationForm = () => {
 					<input type="text" id="address" onChange={handleControlledInputChange} required autoFocus className="form-control" placeholder="address" value={location.address} />
 				</div>
 			</fieldset>
+
 			
-            <fieldset>
-				<div className="form-group">
-					<label htmlFor="location">Assign to location: </label>
-					<select value={animal.locationId} name="locationId" id="locationId" onChange={handleControlledInputChange} className="form-control" >
-						<option value="0">Select a location</option>
-						{locations.map(l => (
-							<option key={l.id} value={l.id}>
-								{l.name}
-							</option>
-						))}
-					</select>
-				</div>
-			</fieldset>
+           
 			
 			<button className="btn btn-primary"
 				onClick={handleClickSaveLocation}>
