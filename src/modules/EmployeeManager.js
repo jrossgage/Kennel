@@ -1,7 +1,7 @@
 const remoteURL = "http://localhost:8088"
 
 export const getEmployeeById = (id) => {
-    return fetch(`${remoteURL}/employees/${id}?_expand=location&_expand=costumer`)
+    return fetch(`${remoteURL}/employees/${id}?_expand=location`)
     .then(response => response.json())
 }
 
@@ -24,4 +24,14 @@ export const addEmployee = (newEmployee) => {
       },
       body: JSON.stringify(newEmployee)
     }).then(response => response.json())
+  }
+
+  export const updateEmployee = (editedEmployee) =>  {
+    return fetch(`${remoteURL}/employees/${editedEmployee.id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(editedEmployee)
+    }).then(data => data.json());
   }

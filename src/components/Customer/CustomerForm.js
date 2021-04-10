@@ -24,10 +24,10 @@ export const CustomerForm = () => {
         event.preventDefault()
 
         const name = customer.name
-        const phoneNumber = customer.phoneNumber
+        const email = customer.email
 
-        if (name === 0 || phoneNumber === 0){
-            window.alert("Please write a name and a phone number")
+        if (name === 0 || email === 0){
+            window.alert("Please write a name and an email address")
         } else {
             addCustomer(customer)
                 .then(() => history.push("/customers"))
@@ -45,10 +45,12 @@ export const CustomerForm = () => {
 			</fieldset>
 			<fieldset>
 				<div className="form-group">
-					<label htmlFor="phone">Customer Phone Number: </label>
-					<input type="text" id="phoneNumber" onChange={handleControlledInputChange} required autoFocus className="form-control" placeholder="phone number" value={customer.phoneNumber} />
+					<label htmlFor="email">Customer Email Address: </label>
+					<input type="text" id="email" onChange={handleControlledInputChange} required autoFocus className="form-control" placeholder="email" value={customer.email} />
 				</div>
 			</fieldset>
+            
+
 			
 			<button className="btn btn-primary"
 				onClick={handleClickSaveCustomer}>
